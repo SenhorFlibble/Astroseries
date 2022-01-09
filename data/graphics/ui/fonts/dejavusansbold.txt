@@ -1,0 +1,2 @@
+DejaVu Sans Bold font from Wyrmsun (https://andrettin.github.io/)
+rearranged by MrFlibble for use with Stratagus engine version 2.1
