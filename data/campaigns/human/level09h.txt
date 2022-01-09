@@ -1,0 +1,6 @@
+Master Yazin: -"Greetings, Comrades. There is a delicate situation to handle. General Eliocan will debrief you."
+General Eliocan: -"In planet Rotik IV there is an uprising against our government, and some band of anti-democratic people have taken some farms for themselves. Probably the Secret Brotherhood, our only headache other than the Grecans. You will send some forces to Rotik IV and quickly put an end to such movements.
+General Romanova: -"Comrade, we have received news that the Zyrronyans have entered our side of the Neutral Zone, the very place we have to cross if we are to reach planet Rotik IV quickly. They are not answering our transmissions."
+General Eliocan: -"If that is true, then, Comrade, you will have to lead General Irina Romanova safely to the flag. Only then we will be able to proceed to Rotik IV as planned. General Yang will provide you with some Star Battlecruisers to help lead General Irina Romanova to the flag. I will deal with the Zyrronyans myself."
+General Romanova: -"Before we go, a friendly reminder: don't forget that Zyrronyan starships can cloak, making them visually invisible. For that reason, it is a good idea to send scanners to spot them." 
+Master Yazin: -"Very well. I will stay in planet Dufisto II to make sure our new colonies go well. Do not fail me, Comrade! Get moving, Comrade!"

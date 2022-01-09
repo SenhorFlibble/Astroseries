@@ -1,0 +1,3 @@
+General Eliocan: -"Thanks to the placement of our outpost in Delos 73, now our forces are spreading through the several planetoids surrounding Zeus, and are getting ready to storm the planet itself.  Captain Ivanov has placed some Air Factories that we autorize you to use, and your mission is to make as many Helifighters as you can and storm the planetary defenses.  You may also use rockets.  A combination of both is still better. Destroy everything, so that our forces can penetrate through the planet and begin the ground invasion."
+
+NOTE: If the Helifighters attack the planet instead of the planetary defenses, make them STOP (by clicking on their STOP button) so they stop the attack. They will pick and attack the correct target automatically.

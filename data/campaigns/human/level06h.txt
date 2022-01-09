@@ -1,0 +1,7 @@
+General Eliocan: -"Comrade Yazin has just arrived and congratulates you in destroying the Nagoran outposts."
+*** Master Yazin enters ***
+Master Yazin: -"Greetings, Comrade.  I have noticed that your dedication to our Empire is total.  While unfortunately some grecans managed to escape through Monolith space into unknown destinations, we have found the rigth excuse to declare war on the Nagoran Empire, which has been unduly interested in our region as of late.  So, instead of chasing grecans, we will take their star system, Dufisto! Yes, Comrade, grecans can wait a bit longer.  Adding a new planet to our Empire is a far more important task.  Your mission will be to destroy all enemies.  I have sent General Irina Romanova to assist you."
+*** General Irina Romanova enters ***
+Master Yazin: -"I will let General Irina Romanova explain the strategy.  Good luck, Comrade!"
+*** Master Yazin exits ***
+General Irina Romanova: -"Our forces have established a small outpost in the moon of Dufisto II, the only livable planet in this system.  We will have to destroy all enemies in order to advance into the planet. Lets move slowly here. First off, we have to destroy an enemy base located west of our location. Right next we should secure this moon and then prepare a force of fighters, which we will then use to destroy the other Nagoran base right of the planet.  Last, we should destroy the planetary defenses of the planet itself. Only then can our forces descend safely into the planet.  Do not fail, Comrade! Lets get moving!"

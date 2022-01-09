@@ -1,0 +1,13 @@
+General Romanova: -"Now that we have eliminated the most strong Monolith towns in this planet, we will proceed to the far south, to the region of Tibanus.  Scanners have discovered this to be an oil rich area.  While our starships operate with nuclear power and thus do not requiere oil to operate, our smaller vehicles, such as tanks, still operate with oil due to the high cost of nuclear reactors.  This area should provide us with more than enough."
+*** Incoming transmission ***
+Mau Dakiz: -"This is Mau Dakiz, representative of the Nagoran Empire. Be advised that your invasion of planet Dufisto II is an open aggression against the Nagoran Empire."
+Master Yazin: -"Oh, really? And what are you going to do about it? Beg for mercy?"
+Mau Dakiz: -"We Nagorans do not beg for mercy.  If what you wanted was to get rid of peace, you have just succeeded."
+Master Yazin: -"You better run away, before we eliminate you. Oh, I forgot you cannot run away. Space patrols would simply get you."
+Mau Dakiz: -"Who spoke of running away, human clown?"
+Master Yazin: -"Look at yourself. You practically dont have any more starships in this planet. What are you goign to oppse us with? With those pitiful gunners? Old sea ships? Prepare for battle, dirty feudal lord."
+Mau Dakiz: -"Any time, human clown."
+*** Transmission ended ***
+General Romanova: -"Seems there are submarines present. To detect them, use the scanners. As you know, scanners and towers can detect underwater units as well as cloaked units."
+Master Yazin: -"You know, Comrades, I just wanted the oil fields. But I have changed my mind. Now I want those oil fields and I want you to eliminate all of the opponents, once again. This time, I will accompany you in this mission. Time to taste final victory on this wonderful planet. Lets get moving! For the Red Czars and the Imperial Union, Comrade!"
+
