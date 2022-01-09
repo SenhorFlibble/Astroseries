@@ -1,0 +1,116 @@
+Welcome!
+========
+
+Astroseries web site: http://www.astroseries.com
+---------------------
+
+
+NOTE: For more complete details, see the readme.html file present in this same directory.
+
+
+----------
+
+
+This is Astroseries RTS Version 1.3 Beta
+========================================
+
+And the first Astroseries Realtime Strategy Game (RTS) to be released under the Stratagus free
+(and opensource) RTS engine. The Stratagus websites can be reached via any of the web addresses below:
+
+1) http://www.stratagus.org
+
+Or
+
+2) http://stratagus.sourceforge.net/
+
+
+================================
+BUG FIXES SINCE VERSION 1.21 BETA
+================================
+
+- Tested the campaigns throughly: These can be won.  Should you have trouble winning a level, however (due to a level being too difficult, or maybe due to a game crash), you may still "cheat" your way accross to the next level.  Please refer below in "HOW TO GET INSTANT VICTORY!!!" for further information.
+
+- Fixed a bug that prevented Imperial Union players from building Missile Towers in the single player campaign(s).
+
+- Installed some extra images to the single player campaigns, to enrich story a bit more.
+
+- Solved an issue that prevented Nagoran shipyards from being built in some levels.
+
+- Solved a problem with the Nagoran Vision (it had no Stop button, now it does).
+
+- Fixed a bit the way the AI deals with enemies/friends priorities.
+
+
+================================
+BUG FIXES SINCE VERSION 1.2 BETA
+================================
+
+- Fixed a bug that prevented Imperial Union players from making Star Battlecruisers (unless they had a foundry, 
+which makes no sense in outer space).
+
+- Fixed the Equip with Blasters button icon for Nagoran Guards. Previously it showed a Nagoran Warrior, now shows correct picture.
+
+
+============
+IMPORTANT!!!
+============
+
+
+  This videogame has not been fully tested, and errors and bugs are likely to occur.  This is the first version of Astroseries released under the Stratagus engine (any previous games were released under the now discontinued FC 1.18) and probably future versions with less bugs and more improvements will be released periodically.
+
+  If you play any of the single player campaigns and experience any problems succeeding in any given map, you can always jump to the next level by following the method described below "How to get instant victory".
+
+=============================
+HOW TO GET INSTANT VICTORY!!!
+=============================
+
+1) Press ENTER (so you can type a message)
+
+2) Type (lowercase and all like this) the following (without the quotation marks): 
+
+"unite the clans"
+
+3) Press ENTER again.
+
+  You get an instant victory in the current map.  Actually, this is a cheat for the game, but has been mentioned here as a help if something goes wrong, so you can still enjoy the rest of the game. 
+
+
+=============================================
+Now a short FAQ (Frequently Asked Questions):
+=============================================
+
+1)
+Q. WHAT IF SAVED GAMES WONT LOAD????
+
+A. Sadly this still happens sometime. We save a game, and when we come back later to it, the game will just exit and crash to desktop (or wathever).  Your only solution right now would be to cheat through the levels, which can be done by following the procedure described above titled "How to get instant victory".  This way you can get back fast to the map you were on (I know lazy people will just cheat all...  Too bad for them if they don't wish to enjoy the game :P)
+
+2)
+Q. Where can I get support for Astroseries?
+
+A. In our web site located at http://www.astroseries.com   There we have news, bug fixes, patches, add-ons, screenshots, information, forums, etc, to help you have a better time playing Astroseries.
+Please report any bugs you see so we can have a huge improvement in the next release. Report them either in our forums (no registration needed) or send e-mail to altamega@hotmail.com
+
+
+
+
+====================
+USE AT YOUR OWN RISK
+====================
+
+
+
+=======================================================================
+Astroseries Copyright Alvaro F. Perez
+This version (1.31) released for the first time on February 23, 2004.
+Astroseries web site: http://www.astroseries.com
+=======================================================================
+
+
+
+
+
+
+
+
+
+
