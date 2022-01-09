@@ -1,0 +1,39 @@
+New multiplayer maps in Astroseries V1.31
+-----------------------------------------
+
+(8)team-map-lilitre-plains.pud.gz
+
+
+
+
+New multiplayer maps in Astroseries V1.3 BETA 
+---------------------------------------------
+
+
+(4)omega-draconius.pud.gz      
+
+(6)top-vs-bottom1.pud.gz
+
+(8)team-map-forest.pud.gz
+
+(8)team-map-ice.pud.gz
+
+(8)team-map-desert.pud.gz
+
+
+
+----------
+
+Date this .txt file was created: December 29, 2004
+Date this .txt was last updated: February 23, 2005
+
+----------
+
+Astroseries Copyright Alvaro F. Perez
+Astroseries Web Site: http://www.astroseries.com
+
+
+
+
+
+
