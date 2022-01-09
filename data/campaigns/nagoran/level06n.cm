@@ -1,0 +1,284 @@
+--	Stratagus Map - Astroseries Single player campaign
+
+
+Briefing("type", "wc2",
+  "title", "6. South Deserts",  "objective", "-Destroy all enemies", "objective", "-Goruzduz must not die", "background", "campaigns/nagoran/interface/neb2.png",  "text", "campaigns/nagoran/level06n.txt",
+  "voice", "campaigns/nagoran/briefing.wav"
+  )
+
+
+
+-- Victory condition
+
+AddTrigger(
+  function() return IfOpponents("this", "==", 0) end,
+  function() return ActionVictory() end)
+
+
+
+-- Defeat condition
+
+AddTrigger(
+   function() return IfUnit("this", "==", 0, "unit-n-goruzduz") and
+     IfUnit(2, "==", 0, "unit-n-goruzduz") end,
+   function() return ActionDefeat() end)
+
+AddTrigger(
+  function() return IfUnit("this", "==", 0, "all") end,
+  function() return ActionDefeat() end)
+
+
+
+-- End of victory and defeat conditions
+
+
+
+
+
+
+-- Units
+
+
+-- H U M A N S
+-- Human units and buildings
+
+
+DefineAllow("unit-h-armor",			"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-h-sbc",			"FFFFFFFFFFFFFFFF")
+
+
+DefineAllow("unit-h-farm",			"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-h-barracks",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-h-hospital",			"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-h-watch-tower",	"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-h-factory",			"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-h-a-factory",			"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-h-starport",		"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-h-shipyard",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-h-outpost",			"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-h-laser-factory",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-h-foundry",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-h-rubitek-armory",			"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-h-armory",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-h-refinery",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-h-oil-platform",	"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-h-fort",			"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-h-hq",			"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-h-start-location",	"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-h-guard-tower",	"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-h-missile-tower",	"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-human-wall",			"FFFFFFFFFFFFFFFF")
+
+
+
+DefineAllow("unit-sbase1",	"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-h-ms",	"FFFFFFFFFFFFFFFF")
+
+
+
+
+-- Upgrades
+
+DefineAllow("upgrade-sword1",			"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-sword2",			"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-arrow1",			"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-arrow2",			"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-human-shield1",		"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-human-shield2",		"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-human-ship-cannon1",	"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-human-ship-cannon2",	"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-human-ship-armor1",	"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-human-ship-armor2",	"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-ballista1",		"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-ballista2",		"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-ranger",			"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-longbow",			"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-ranger-scouting",		"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-ranger-marksmanship",	"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-paladin",			"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-holy-vision",		"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-healing",			"RRRRRRRRRRRRRRRR")
+DefineAllow("upgrade-farguns",			"FFFFFFFFFFFFFFFF")
+
+
+
+DefineAllow("upgrade-exorcism",			"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-flame-shield",		"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-fireball",			"RRRRRRRRRRRRRRRR")
+DefineAllow("upgrade-slow",			"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-invisibility",		"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-polymorph",		"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-blizzard",			"FFFFFFFFFFFFFFFF")
+
+
+
+
+
+
+
+
+-- N A G O R A N S
+-- Nagoran units and buildings
+
+DefineAllow("unit-n-guard",			"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-n-armed-guard",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-n-worker",			"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-n-mxet",			"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-n-kxet",			"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-n-warrior",			"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-n-sp-warrior",		"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-n-adv-kxet",			"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-n-rocket",		"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-n-adv-warrior",			"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-n-master-warrior",			"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-n-hero1",			"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-n-hero2",			"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-n-oil-tanker",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-n-transport",		"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-n-mtila",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-n-litan",		"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-n-hero3",			"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-n-subwater",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-n-interceptor",			"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-n-vision",			"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-n-scout",			"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-n-hero4",		"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-n-goruzduz",			"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-n-hero5",			"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-n-hero6",			"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-n-mau-kamrak",			"FFFFFFFFFFFFFFFF")
+
+
+DefineAllow("unit-n-farm",			"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-n-barracks",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-n-hospital",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-n-watch-tower",	"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-n-factory",			"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-n-a-factory",			"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-n-star-building",		"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-n-shipyard",		"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-n-colony-center",			"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-n-blaster-factory",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-n-foundry",		"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-n-mw-factory",	"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-n-armory",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-n-refinery",		"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-n-oil-platform",	"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-n-town-center",			"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-n-city-center",			"FFFFFFFFFFFFFFFF")
+DefineAllow("unit-n-start-location",	"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-n-guard-tower",	"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-n-missile-tower",	"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-orc-wall",			"FFFFFFFFFFFFFFFF")
+
+
+
+
+-- Upgrades
+
+DefineAllow("upgrade-battle-axe1",		"AAAAAAAAAAAAAAAA")
+DefineAllow("upgrade-battle-axe2",		"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-throwing-axe1",		"AAAAAAAAAAAAAAAA")
+DefineAllow("upgrade-throwing-axe2",		"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-orc-shield1",		"AAAAAAAAAAAAAAAA")
+DefineAllow("upgrade-orc-shield2",		"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-orc-ship-cannon1",		"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-orc-ship-cannon2",		"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-orc-ship-armor1",		"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-orc-ship-armor2",		"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-catapult1",		"AAAAAAAAAAAAAAAA")
+DefineAllow("upgrade-catapult2",		"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-berserker",		"AAAAAAAAAAAAAAAA")
+DefineAllow("upgrade-light-axes",		"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-berserker-scouting",	"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-berserker-regeneration",	"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-ogre-mage",		"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-eye-of-kilrogg",		"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-bloodlust",		"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-raise-dead",		"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-death-coil",		"RRRRRRRRRRRRRRRR")
+DefineAllow("upgrade-whirlwind",		"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-haste",			"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-unholy-armor",		"FFFFFFFFFFFFFFFF")
+DefineAllow("upgrade-runes",			"FFFFFFFFFFFFFFFF")
+
+DefineAllow("upgrade-death-and-decay",		"FFFFFFFFFFFFFFFF")
+
+
+
+
+
+-- O T H E R S
+-- Other units and buildings
+
+
+
+DefineAllow("unit-nothing-22",			"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-nothing-24",			"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-nothing-25",			"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-nothing-30",			"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-nothing-36",			"AAAAAAAAAAAAAAAA")
+
+DefineAllow("unit-critter",			"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-skeleton",			"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-daemon",			"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-gold-mine",			"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-oil-patch",			"AAAAAAAAAAAAAAAA")
+
+DefineAllow("unit-circle-of-power",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-dark-portal",			"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-runestone",			"AAAAAAAAAAAAAAAA")
+
+DefineAllow("unit-dead-body",			"AAAAAAAAAAAAAAAA")
+
+
+
+DefineAllow("unit-destroyed-1x1-place",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-destroyed-2x2-place",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-destroyed-3x3-place",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-destroyed-4x4-place",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-destroyed-5x5-place",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-destroyed-6x6-place",		"AAAAAAAAAAAAAAAA")
+
+
+
+
+-- Non specific side units
+
+DefineAllow("unit-dish",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-gunman",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-farm",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-cannon1",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-palace1",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-woman1",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-building1",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-planet1",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-planet2",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-moon1",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-flag1",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-guard1",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-tank1",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-ic-ship",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-rotkur",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-garidis",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-zship",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-planet-defense",		"AAAAAAAAAAAAAAAA")
+DefineAllow("unit-transport1",		"AAAAAAAAAAAAAAAA")
+
+
+-- Done with units and upgrades
+
+
+
+
+
+-- L O A D   M A P
+-- Allright, load the map
+
+LoadPud("campaigns/nagoran/level06n.pud")
+
+
+
+
+
+
